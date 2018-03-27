@@ -1,2 +1,9 @@
 # portfolio
-portfolio for ian pollocks art web authoring class
+<b>portfolio for ian pollocks art web authoring class</b>
+
+## resources
+markdown cheatsheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## inspiration
+
+## other stuff
