@@ -1,5 +1,15 @@
-.grid-container {border:1px solid red;}
+/* .grid-container {border:1px solid red;}
 
 .grid-x {border:1px solid blue;}
 
-.cell {border:1px solid green;}
+.cell {border:1px solid green;} */
+
+
+
+/* //// NAVIGATION STYLES //// */
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding: 60px;
+  text-transform: lowercase;
+}
