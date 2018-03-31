@@ -10,6 +10,7 @@
 a {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  padding: 60px;
+  padding: 55px;
   text-transform: lowercase;
+  font-size: 16px;
 }
