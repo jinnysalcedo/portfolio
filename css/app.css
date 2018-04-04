@@ -1,17 +1,8 @@
-/* .grid-container {border:1px solid red;}
+.cell {
+  border-width: 1px solid red;
+  background-color: rgba(255, 255, 0, 0.5)
+}
 
-.grid-x {border:1px solid blue;}
-
-.cell {border:1px solid green;} */
-
-
-
-/* //// NAVIGATION STYLES //// */
-a {
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  padding: 55px;
-  text-transform: lowercase;
-  font-size: 16px;
-  margin-top: 50px;
+.grid-container {
+border: 1px solid red;
 }
