@@ -1,8 +1,38 @@
-.cell {
-  border-width: 1px solid red;
-  background-color: rgba(255, 255, 0, 0.5)
-}
+/* .cell {
+  border: 1px solid green;
+} */
 
 .grid-container {
-border: 1px solid red;
+/* border: 1px solid red; */
 }
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pavanam');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+p, li {
+font-family: 'Pavanam', sans-serif;
+}
+
+#flatlay {
+  width: 100%;
+  height: 100%;
+}
+
+/* NAVIGATION STYLES: */
+
+#logo{
+  width: 50px;
+  height: 50px;
+  background-image: url(https://placeimg.com/200/200/tech);
+  background-size: contain;
+  text-indent: -15em;
+}
+
+nav >ul >li >a:link {color: red; background-color: hsla(240, 10%, 80%, 1);}
+nav >ul >li >a:hover {color: white; background-color: hsla(240, 10%, 80%, 1);}
+nav >ul >li >a:active {color: red; background-color: hsla(240, 10%, 80%, 1);}
+nav >ul >li >a:visited {color: green; background-color: hsla(240, 10%, 80%, 1);}
