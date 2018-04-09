@@ -1,7 +1,36 @@
-/* menu {
-  margin-top: 40px;
-} */
+/* NAVIGATION STYLES */
+nav a, nav ul {
+  font-size: 1.3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
+/* ///// NAVIGATION BAR MARGINS /////  */
+nav li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ///// FOOTER STYLES /////  */
+footer {
+  background-color: rgb(64, 66, 68);
+  color: white;
+  height: 200px;
+  margin-top: 20px;
+  padding: 100px;
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+}
+
+footer ul  {
+  width: auto;
+   text-align: center;
+   list-style-type: none;
+ }
+
+
+
+/* ////// HEADER CLASSES /////  */
 h1 {
   text-align: center;
   margin-top: 20px;
@@ -25,7 +54,7 @@ h2 {
   font-size: 2.5em;
 }
 
-
+/* //// USED FOR LINKS FOR IMAGES ON GALLERY PAGES /////  */
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -35,7 +64,18 @@ h3 {
   font-size: 1.2em;
 }
 
+
+/* ///// USED FOR IMAGE DETAIL PAGES /////  */
 figcaption {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* figcaption {
   width: 100%;
   text-align: center;
   font-size: 1.3em;
@@ -43,32 +83,40 @@ figcaption {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 40px;
-}
+} */
 
 p {
-  margin-left: 50px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 60px;
   text-align: left;
-  font-size: 1.3em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 
+/* //// MEDIA QUERIES : MOBILE AND IPAD ////  */
 
 @media (max-width: 1280px) {
    h1, h2 {
      font-size: 1.5rem;
    }
-   h3 {
+   h3, h4 {
      font-size: 1.1rem;
    }
    p {
      font-size: 1rem;
+     margin-right: auto;
+     margin-left: 40px;
    }
    a{  font-size: 1.2rem;
    }
+   nav a, nav ul
+   {  font-size: 1.2rem;
+   }
  }
 
+
+/* ///// SEPARATE CLASSES FOR SPECIFIC THINGS /////  */
 
  #detail1 {
      display: block;
@@ -101,37 +149,6 @@ p {
 
 
 
-/* NAVIGATION STYLES */
-
-footer {
-  background-color: rgb(64, 66, 68);
-  color: white;
-  height: 200px;
-  margin-top: 20px;
-  padding: 100px;
-  font-size: 1.3em;
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: none;
-}
-
-footer ul  {
-  width: auto;
-   text-align: center;
-   list-style-type: none;
-
- }
-
-/* ///// NAVIGATION BAR AT TOP FONT SIZE //////  */
-nav ul {
-  font-size: 1.2em;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-/* ///// NAVIGATION BAR MARGINS /////  */
-nav li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 /*
  nav >ul >li >a:link {color: red; background-color: hsla(240, 10%, 80%, 1);}
 nav >ul >li >a:hover {color: white; background-color: hsla(240, 10%, 80%, 1);}
